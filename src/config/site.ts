@@ -12,7 +12,7 @@ export const siteConfig = {
   },
 
   footer: {
-    description: 'Crafted cause I can'
+    description: 'Crafted to stay sane'
   },
 
   // Hero Section
