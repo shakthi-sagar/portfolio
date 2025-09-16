@@ -16,6 +16,7 @@ const Header: React.FC = () => {
     { name: 'About', href: '#about' },
     { name: 'Contact', href: '#contact' }
   ];
+  
 
   return (
     <header className="sticky top-0 z-50 w-full bg-white/90 dark:bg-slate-950/90 backdrop-blur-xl border-b border-slate-200/40 dark:border-slate-800/40">
