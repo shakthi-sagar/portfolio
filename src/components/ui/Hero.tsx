@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           <span className="text-slate-900 dark:text-white block mb-2">
             {hero.title}
           </span>
-          <span className="font-bold bg-gradient-to-r from-blue-500 via-sky-400 to-blue-500 bg-clip-text text-transparent">
+          <span className="font-bold bg-gradient-to-r from-blue-600 via-sky-300 to-blue-600 bg-clip-text text-transparent animate-gradient-flow">
             {hero.subtitle}
           </span>
         </h1>

@@ -66,8 +66,8 @@ export const siteConfig = {
       link: 'https://www.flow2chat.com',
     },
     {
-        id: 'quickgpt',
-        name: 'QuickGPT',
+        id: 'swiftgpt',
+        name: 'SwiftGPT',
         tagline: 'MacOS Menubar app for easy LLM interactions',
         status: 'building' as const,
         pricing: 'paid' as const,
