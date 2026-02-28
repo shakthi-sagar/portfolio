@@ -1,33 +1,62 @@
-import React from 'react';
-import { ThemeProvider } from './context/ThemeContext';
-import Header from './components/layout/Header';
-import Hero from './components/ui/Hero';
-import Footer from './components/layout/Footer';
-import ProductsSection from './components/sections/ProductsSection';
-import FunProjectsSection from './components/sections/FunProjectsSection';
-import ContactSection from './components/sections/ContactSection';
+import { useState } from 'react';
+import ProjectCard from './components/ProjectCard';
+import { CONFIG, PROJECTS, type ProjectCategory } from './config';
+import './App.css';
 
-function AppContent(): React.ReactElement {
+function App() {
+  const [activeTab, setActiveTab] = useState<ProjectCategory>('All');
+
+  const filteredProjects = activeTab === 'All'
+    ? PROJECTS
+    : PROJECTS.filter(p => p.category === activeTab);
+
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 transition-colors">
-      <Header/>
-      
-      <main>
-        <Hero />
-        <ProductsSection />
-        <FunProjectsSection />
-        <ContactSection />
-      </main>
+    <div className="app-container">
+      {/* Full Screen Hero */}
+      <section className="hero">
+        <h1 className="hero-title">{CONFIG.name}</h1>
+        <p className="hero-subtitle">
+          {CONFIG.tagline}
+        </p>
+      </section>
 
-      <Footer />
+      {/* Sticky Tab Navigation */}
+      <div className="tabs-container">
+        <div className="tabs">
+          {CONFIG.tabs.map(tab => (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`tab ${activeTab === tab ? 'active' : ''}`}
+            >
+              {tab}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Grid rendering cards */}
+      <section className="grid-section">
+        <div className="grid">
+          {filteredProjects.map((p) => (
+            <ProjectCard
+              key={p.id}
+              title={p.title}
+              description={p.description}
+              emoji={p.emoji}
+              type={p.type}
+              imageUrl={p.imageUrl}
+            />
+          ))}
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="footer">
+        {CONFIG.footerText}
+      </footer>
     </div>
   );
 }
 
-export default function App(): React.ReactElement {
-  return (
-    <ThemeProvider>
-      <AppContent />
-    </ThemeProvider>
-  );
-}
+export default App;
