@@ -1,4 +1,3 @@
-import tradeoffImg from './assets/tradeoff.png';
 
 export const Category = {
     Utility: 'Utility',
