@@ -85,15 +85,15 @@
 
 .card-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin-top: auto;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 14px;
 }
 
 .visit-link {
     color: var(--accent);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
 }

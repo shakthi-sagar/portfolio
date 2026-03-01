@@ -62,7 +62,6 @@ function App() {
               title={p.title}
               description={p.description}
               emoji={p.emoji}
-              type={p.type}
               url={p.url}
               imageUrl={p.imageUrl}
               iframeUrl={p.iframeUrl}

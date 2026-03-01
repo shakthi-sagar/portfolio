@@ -5,13 +5,12 @@ interface ProjectCardProps {
     title: string;
     description: string;
     emoji?: string;
-    type: string;
     url?: string;
     imageUrl?: string;
     iframeUrl?: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, emoji, type, url, imageUrl, iframeUrl }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, emoji, url, imageUrl, iframeUrl }) => {
     return (
         <a href={url || "#"} target="_blank" rel="noreferrer" className="project-card">
             <div className="card-media">
@@ -37,8 +36,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, emoji, ty
                 <p className="card-desc">{description}</p>
 
                 <div className="card-footer">
-                    <span style={{ textTransform: 'uppercase', color: 'var(--text-muted)' }}>{type}</span>
-                    <span className="visit-link">View Project →</span>
+                    <span className="visit-link">VISIT SITE →</span>
                 </div>
             </div>
         </a>

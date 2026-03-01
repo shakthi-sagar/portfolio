@@ -1,4 +1,3 @@
-
 export const Category = {
     Utility: 'Utility',
     Arcade: 'Arcade',
@@ -22,7 +21,6 @@ export interface Project {
     description: string;
     category: Category;
     emoji?: string;
-    type: string;
     url?: string;
     imageUrl?: string;
     iframeUrl?: string;
@@ -34,8 +32,15 @@ export const PROJECTS: Project[] = [
         title: 'Tradeoff App',
         description: 'A tool for making decisions based on weighted criteria and tradeoffs. Compare options systematically.',
         category: Category.Utility,
-        type: 'Web App',
         url: 'https://tradeoff.shakthisagar.dev',
         iframeUrl: 'https://tradeoff.shakthisagar.dev'
+    },
+    {
+        id: 2,
+        title: 'MD Preview',
+        description: 'Blazingly fast markdown live previewer with mermaid support.',
+        category: Category.Utility,
+        url: 'https://md.shakthisagar.dev',
+        iframeUrl: 'https://md.shakthisagar.dev'
     }
 ];
