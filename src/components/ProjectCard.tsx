@@ -4,7 +4,7 @@ import './ProjectCard.css';
 interface ProjectCardProps {
     title: string;
     description: string;
-    emoji: string;
+    emoji?: string;
     type: string;
     url?: string;
     imageUrl?: string;

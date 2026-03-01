@@ -1,3 +1,5 @@
+import tradeoffImg from './assets/tradeoff.png';
+
 export const Category = {
     Utility: 'Utility',
     Arcade: 'Arcade',
@@ -20,7 +22,7 @@ export interface Project {
     title: string;
     description: string;
     category: Category;
-    emoji: string;
+    emoji?: string;
     type: string;
     url?: string;
     imageUrl?: string;
@@ -33,8 +35,8 @@ export const PROJECTS: Project[] = [
         title: 'Tradeoff App',
         description: 'A tool for making decisions based on weighted criteria and tradeoffs. Compare options systematically.',
         category: Category.Utility,
-        emoji: '⚖️',
         type: 'Web App',
-        url: 'https://tradeoff.shakthisagar.dev'
+        url: 'https://tradeoff.shakthisagar.dev',
+        iframeUrl: 'https://tradeoff.shakthisagar.dev'
     }
 ];
