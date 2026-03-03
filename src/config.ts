@@ -14,6 +14,7 @@ export const CONFIG = {
     socials: {
         github: "https://github.com/shakthi-sagar",
         linkedin: "https://www.linkedin.com/in/shakthi-sagar-m/",
+        archive: "https://archive.shakthisagar.dev",
     }
 };
 

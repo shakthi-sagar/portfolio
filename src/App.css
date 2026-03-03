@@ -199,3 +199,20 @@
   width: 24px;
   height: 24px;
 }
+
+.hero-archive-link {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 3px solid var(--text);
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.hero-archive-link:hover {
+  opacity: 0.6;
+  transform: translateY(-2px);
+}

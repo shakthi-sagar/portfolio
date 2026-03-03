@@ -48,6 +48,9 @@ function App() {
             </svg>
           </a>
         </div>
+        <a href={CONFIG.socials.archive} target="_blank" rel="noreferrer" className="hero-archive-link">
+          ARCHIVE
+        </a>
       </section>
 
       {/* Sticky Tab Navigation */}
