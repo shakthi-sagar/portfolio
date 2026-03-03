@@ -55,5 +55,13 @@ export const PROJECTS: Project[] = [
         category: Category.Arcade,
         url: 'https://particlism.shakthisagar.dev',
         iframeUrl: 'https://particlism.shakthisagar.dev'
+    },
+    {
+        id: 4,
+        title: 'SpinArena',
+        description: 'Physics-based battle arena where you build and battle modular fighters.',
+        category: Category.Arcade,
+        url: 'https://spinarena.shakthisagar.dev',
+        iframeUrl: 'https://spinarena.shakthisagar.dev'
     }
 ];
