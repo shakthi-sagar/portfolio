@@ -62,6 +62,6 @@ export const PROJECTS: Project[] = [
         description: 'Physics-based battle arena where you build and battle modular fighters.',
         category: Category.Arcade,
         url: 'https://spinarena.shakthisagar.dev',
-        iframeUrl: 'https://spinarena.shakthisagar.dev/demo'
+        iframeUrl: 'https://spinarena.shakthisagar.dev/#demo'
     }
 ];
