@@ -54,7 +54,7 @@ export const PROJECTS: Project[] = [
         description: 'A fun physics-based particle simulation playground.',
         category: Category.Arcade,
         url: 'https://particlism.shakthisagar.dev',
-        iframeUrl: 'https://particlism.shakthisagar.dev'
+        iframeUrl: 'https://particlism.shakthisagar.dev/demo'
     },
     {
         id: 4,
@@ -62,6 +62,6 @@ export const PROJECTS: Project[] = [
         description: 'Physics-based battle arena where you build and battle modular fighters.',
         category: Category.Arcade,
         url: 'https://spinarena.shakthisagar.dev',
-        iframeUrl: 'https://spinarena.shakthisagar.dev'
+        iframeUrl: 'https://spinarena.shakthisagar.dev/demo'
     }
 ];
