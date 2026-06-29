@@ -33,22 +33,6 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
     {
-        id: 1,
-        title: 'Tradeoff',
-        description: 'Decision-making tool for comparing options using weighted criteria.',
-        category: Category.Utility,
-        url: 'https://tradeoff.shakthisagar.dev',
-        iframeUrl: 'https://tradeoff.shakthisagar.dev'
-    },
-    {
-        id: 2,
-        title: 'Markdown Editor',
-        description: 'Fast markdown editor with live preview and Mermaid.js support.',
-        category: Category.Utility,
-        url: 'https://md.shakthisagar.dev',
-        iframeUrl: 'https://md.shakthisagar.dev'
-    },
-    {
         id: 3,
         title: 'Particlism',
         description: 'A fun physics-based particle simulation playground.',
@@ -65,9 +49,25 @@ export const PROJECTS: Project[] = [
         iframeUrl: 'https://cubemonke.com'
     },
     {
+        id: 1,
+        title: 'Tradeoff',
+        description: 'Decision-making tool for comparing options using weighted criteria.',
+        category: Category.Utility,
+        url: 'https://tradeoff.shakthisagar.dev',
+        iframeUrl: 'https://tradeoff.shakthisagar.dev'
+    },
+    {
+        id: 2,
+        title: 'Markdown Editor',
+        description: 'Fast markdown editor with live preview and Mermaid.js support.',
+        category: Category.Utility,
+        url: 'https://md.shakthisagar.dev',
+        iframeUrl: 'https://md.shakthisagar.dev'
+    },
+    {
         id: 6,
         title: 'SwiftGPT',
-        description: 'AI assistant in your menu bar for quick writing and prompt workflows.',
+        description: 'Menu bar browser for AI chatbots — add ChatGPT, Claude, or any site as tabs and summon them with a hotkey.',
         category: Category.Products,
         url: 'https://swiftgpt.shakthisagar.dev',
         iframeUrl: 'https://swiftgpt.shakthisagar.dev'
