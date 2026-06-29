@@ -57,20 +57,12 @@ export const PROJECTS: Project[] = [
         iframeUrl: 'https://particlism.shakthisagar.dev'
     },
     {
-        id: 4,
-        title: 'SpinArena',
-        description: 'Physics-based battle arena where you build and battle modular fighters.',
+        id: 7,
+        title: 'CubeMonke',
+        description: 'Speedcubing timer with a virtual cube, custom scrambles, replays, and leaderboards.',
         category: Category.Arcade,
-        url: 'https://spinarena.shakthisagar.dev',
-        iframeUrl: 'https://spinarena.shakthisagar.dev/#demo'
-    },
-    {
-        id: 5,
-        title: 'QuickPeek',
-        description: 'Menu bar browser for opening your most-used sites instantly.',
-        category: Category.Products,
-        url: 'https://quickpeek.shakthisagar.dev',
-        iframeUrl: 'https://quickpeek.shakthisagar.dev'
+        url: 'https://cubemonke.com',
+        iframeUrl: 'https://cubemonke.com'
     },
     {
         id: 6,
@@ -79,21 +71,5 @@ export const PROJECTS: Project[] = [
         category: Category.Products,
         url: 'https://swiftgpt.shakthisagar.dev',
         iframeUrl: 'https://swiftgpt.shakthisagar.dev'
-    },
-    {
-        id: 7,
-        title: 'LockIn',
-        description: 'Focus companion app for planning deep work sessions and reducing distractions.',
-        category: Category.Products,
-        url: 'https://lockin.shakthisagar.dev',
-        iframeUrl: 'https://lockin.shakthisagar.dev'
-    },
-    {
-        id: 8,
-        title: 'ToolBento',
-        description: 'All-in-one native utility suite with everyday developer tools.',
-        category: Category.Products,
-        url: 'https://toolbento.shakthisagar.dev',
-        iframeUrl: 'https://toolbento.shakthisagar.dev'
     },
 ];
