@@ -33,14 +33,6 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
     {
-        id: 8,
-        title: 'Games Hub',
-        description: 'Multiplayer browser games for quick rooms with friends and bots.',
-        category: Category.Arcade,
-        url: 'https://gameshub.shakthisagar.dev',
-        iframeUrl: 'https://gameshub.shakthisagar.dev'
-    },
-    {
         id: 3,
         title: 'Particlism',
         description: 'A fun physics-based particle simulation playground.',
