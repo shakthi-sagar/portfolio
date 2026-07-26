@@ -165,38 +165,3 @@
   color: inherit;
 }
 
-/* Hero Socials */
-.hero-socials {
-  display: flex;
-  gap: 16px;
-  margin-top: 10px;
-}
-
-.hero-socials a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  background: var(--bg);
-  border: 3px solid var(--border);
-  box-shadow: 4px 4px 0px var(--border);
-  color: var(--text);
-  transition: all 0.2s;
-}
-
-.hero-socials a:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px var(--border);
-}
-
-.hero-socials a:active {
-  transform: translate(0, 0);
-  box-shadow: 2px 2px 0px var(--border);
-}
-
-.hero-socials svg {
-  width: 24px;
-  height: 24px;
-}
-
