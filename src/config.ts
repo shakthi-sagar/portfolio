@@ -71,4 +71,12 @@ export const PROJECTS: Project[] = [
         url: 'https://swiftgpt.shadster.dev',
         iframeUrl: 'https://swiftgpt.shadster.dev'
     },
+    {
+        id: 8,
+        title: 'Recall',
+        description: 'A reminder and memory tool for keeping track of what matters.',
+        category: Category.Products,
+        url: 'https://recall.shadster.dev',
+        iframeUrl: 'https://recall.shadster.dev'
+    },
 ];
