@@ -14,7 +14,7 @@ export const CONFIG = {
     socials: {
         github: "https://github.com/shakthi-sagar",
         linkedin: "https://www.linkedin.com/in/shakthi-sagar-m/",
-        archive: "https://archive.shakthisagar.dev",
+        archive: "https://archive.shadster.dev",
     }
 };
 
@@ -37,8 +37,8 @@ export const PROJECTS: Project[] = [
         title: 'Particlism',
         description: 'A fun physics-based particle simulation playground.',
         category: Category.Arcade,
-        url: 'https://particlism.shakthisagar.dev',
-        iframeUrl: 'https://particlism.shakthisagar.dev'
+        url: 'https://particlism.shadster.dev',
+        iframeUrl: 'https://particlism.shadster.dev'
     },
     {
         id: 7,
@@ -53,23 +53,23 @@ export const PROJECTS: Project[] = [
         title: 'Tradeoff',
         description: 'Decision-making tool for comparing options using weighted criteria.',
         category: Category.Utility,
-        url: 'https://tradeoff.shakthisagar.dev',
-        iframeUrl: 'https://tradeoff.shakthisagar.dev'
+        url: 'https://tradeoff.shadster.dev',
+        iframeUrl: 'https://tradeoff.shadster.dev'
     },
     {
         id: 2,
         title: 'Markdown Editor',
         description: 'Fast markdown editor with live preview and Mermaid.js support.',
         category: Category.Utility,
-        url: 'https://md.shakthisagar.dev',
-        iframeUrl: 'https://md.shakthisagar.dev'
+        url: 'https://md.shadster.dev',
+        iframeUrl: 'https://md.shadster.dev'
     },
     {
         id: 6,
         title: 'SwiftGPT',
         description: 'Menu bar browser for AI chatbots — add ChatGPT, Claude, or any site as tabs and summon them with a hotkey.',
         category: Category.Products,
-        url: 'https://swiftgpt.shakthisagar.dev',
-        iframeUrl: 'https://swiftgpt.shakthisagar.dev'
+        url: 'https://swiftgpt.shadster.dev',
+        iframeUrl: 'https://swiftgpt.shadster.dev'
     },
 ];
