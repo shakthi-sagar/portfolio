@@ -7,14 +7,13 @@ export const Category = {
 export type Category = typeof Category[keyof typeof Category];
 
 export const CONFIG = {
-    name: "Shakthi Sagar.",
+    name: "Shadster.",
     tagline: "Software Developer. I build tools, games and anything that I find interesting.",
-    footerText: "© 2026 Shakthi Sagar.",
+    footerText: "© 2026 Shadster.",
     tabs: ['All', Category.Utility, Category.Arcade, Category.Products] as const,
     socials: {
         github: "https://github.com/shakthi-sagar",
         linkedin: "https://www.linkedin.com/in/shakthi-sagar-m/",
-        archive: "https://archive.shadster.dev",
     }
 };
 
