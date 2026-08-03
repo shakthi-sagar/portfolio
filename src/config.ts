@@ -28,6 +28,14 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
     {
+        id: 9,
+        title: 'F1 Race Sim',
+        description: 'Interactive Formula 1 race replay from real historical telemetry.',
+        category: Category.Arcade,
+        url: 'https://f1-sim.shadster.dev',
+        iframeUrl: 'https://f1-sim.shadster.dev'
+    },
+    {
         id: 3,
         title: 'Particlism',
         description: 'A fun physics-based particle simulation playground.',
